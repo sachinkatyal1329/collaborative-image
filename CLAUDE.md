@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-A collaborative 1000x1000 word grid where users type words that collectively form an AI image prompt. The image on the left evolves as users contribute words on the right. All users see real-time updates via WebSockets.
+A collaborative 100x100 word grid where users type words that collectively form an AI image prompt. The image is displayed on top and the word grid is on the bottom. All users see real-time updates via WebSockets.
 
 ## Tech Stack
 
@@ -13,9 +13,9 @@ A collaborative 1000x1000 word grid where users type words that collectively for
 
 ## Key Files
 
-- `index.html` - Split layout: image left, word grid right
+- `index.html` - Split layout: image on top, word grid on bottom
 - `style.css` - Flexbox split panel + glassmorphism styling
-- `grid-canvas.js` - WordGrid class: 1000x1000 canvas with pan/zoom, text rendering
+- `grid-canvas.js` - WordGrid class: 100x100 canvas with pan/zoom, text rendering
 - `app.js` - App controller: typing, sockets, image display
 - `server/server.js` - Express server with Socket.IO (port 3001)
 - `server/database.js` - SQLite database operations
