@@ -1,0 +1,8 @@
+node_modules/
+server/.env
+server/grid.db
+server/grid.db-shm
+server/grid.db-wal
+server/images/*.png
+server/images/*.jpg
+.DS_Store
